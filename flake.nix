@@ -17,17 +17,13 @@
           text = builtins.readFile script;
         };
 
-        encode-script = makeScript "encode" ./encode.sh;
-        decode-script = makeScript "decode" ./decode.sh;
+        encode-script = makeScript "snencode" ./encode.sh;
+        decode-script = makeScript "sndecode" ./decode.sh;
       in
       {
         packages = {
-          supernote-screensaver-encode = encode-script;
-          supernote-screensaver-decode = decode-script;
-          default = pkgs.symlinkJoin {
-            name = "image-scripts";
-            paths = [ encode-script decode-script ];
-          };
+          snencode = encode-script;
+          sndecode = decode-script;
         };
 
         devShells.default = pkgs.mkShell {

@@ -1,5 +1,8 @@
 # Nix build output
 result
+# Nix bundle output
+snencode
+sndecode
 # Input, output files
 idle.bmp
 idle.png
