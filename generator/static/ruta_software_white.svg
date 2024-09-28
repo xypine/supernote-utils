@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="85.000008mm"
+   height="54.999996mm"
+   viewBox="0 0 85.000008 54.999996"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="ruta_software_white.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="2.4092645"
+     inkscape:cx="126.80218"
+     inkscape:cy="99.615464"
+     inkscape:window-width="2556"
+     inkscape:window-height="1402"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="SVGRoot" />
+  <title
+     id="title171">Ruta Software logo</title>
+  <defs
+     id="defs992">
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="30.066020"
+       height="5.1805778"
+       id="Wavywhite">
+      <path
+         style="fill:white;stroke:none;"
+         d="M 7.597,0.061 C 5.079,-0.187 2.656,0.302 -0.01,1.788 L -0.01,3.061 C 2.773,1.431 5.173,1.052 7.472,1.280 C 9.770,1.508 11.969,2.361 14.253,3.218 C 18.820,4.931 23.804,6.676 30.066,3.061 L 30.062,1.788 C 23.622,5.497 19.246,3.770 14.691,2.061 C 12.413,1.207 10.115,0.311 7.597,0.061 z "
+         id="path4301" />
+    </pattern>
+    <filter
+       height="1.4363637"
+       y="-0.21818183"
+       width="1.2823529"
+       x="-0.14117647"
+       style="color-interpolation-filters:sRGB"
+       id="filter6530">
+      <feGaussianBlur
+         stdDeviation="5"
+         result="result8"
+         in="SourceGraphic"
+         id="feGaussianBlur6510" />
+      <feComposite
+         in="result8"
+         in2="result8"
+         operator="xor"
+         result="result18"
+         id="feComposite6512" />
+      <feComposite
+         in="result8"
+         k1="1"
+         k2="0.5"
+         operator="arithmetic"
+         result="result16"
+         in2="result18"
+         id="feComposite6514"
+         k3="0"
+         k4="0" />
+      <feComposite
+         in2="result8"
+         result="result6"
+         operator="atop"
+         in="result16"
+         id="feComposite6516" />
+      <feOffset
+         result="result17"
+         in="result6"
+         id="feOffset6518" />
+      <feDisplacementMap
+         in2="result16"
+         in="result17"
+         xChannelSelector="A"
+         yChannelSelector="A"
+         scale="100"
+         result="result4"
+         id="feDisplacementMap6520" />
+      <feComposite
+         in2="result4"
+         result="result2"
+         operator="arithmetic"
+         in="result17"
+         k3="1"
+         id="feComposite6522"
+         k1="0"
+         k2="0"
+         k4="0" />
+      <feComposite
+         in2="result17"
+         result="fbSourceGraphic"
+         in="result2"
+         operator="out"
+         id="feComposite6524" />
+      <feComposite
+         in="fbSourceGraphic"
+         in2="fbSourceGraphic"
+         operator="over"
+         result="result14"
+         id="feComposite6526" />
+      <feComposite
+         result="result15"
+         in2="SourceGraphic"
+         operator="in"
+         in="result14"
+         id="feComposite6528" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="font-variation-settings:'wght' 100;display:none;opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.05833;stroke-opacity:1"
+       id="rect7193"
+       width="84.999992"
+       height="54.999992"
+       x="3.8146973e-06"
+       y="3.8146973e-06" />
+    <rect
+       style="display:inline;opacity:0.5;fill:url(#Wavywhite);fill-opacity:1;stroke:none;stroke-width:1.05833;filter:url(#filter6530)"
+       id="rect2074"
+       width="85"
+       height="54.999996"
+       x="1.2665987e-06"
+       y="1.0877848e-06" />
+    <g
+       id="g7100"
+       transform="translate(0,-5.9766326)"
+       style="display:inline;fill:#000000;fill-opacity:1">
+      <path
+         d="m 21.551395,46.407235 c 1.3081,0 2.0701,-0.635 2.0701,-1.6256 0,-2.2352 -3.9116,-1.143 -3.9116,-3.0988 0,-0.8509 0.7493,-1.3462 1.8669,-1.3462 0.5969,0 1.2319,0.1397 1.6383,0.3556 l 0.0889,-0.2032 c -0.3937,-0.2286 -1.1049,-0.381 -1.7272,-0.381 -1.27,0 -2.1336,0.6223 -2.1336,1.6256 0,2.1463 3.9116,1.0414 3.9116,3.0861 0,0.8382 -0.6477,1.3589 -1.778,1.3589 -0.6858,0 -1.4732,-0.1905 -2.1844,-0.5334 l -0.0889,0.2159 c 0.7239,0.3556 1.5367,0.5461 2.2479,0.5461 z m 6.311902,0 c 1.5875,0 2.667,-1.27 2.667,-3.175 0,-1.8923 -1.0668,-3.1242 -2.6416,-3.1242 -1.6256,0 -2.7051,1.27 -2.7051,3.1623 0,1.8796 1.0668,3.1369 2.6797,3.1369 z m 0.0254,-0.2286 c -1.4859,0 -2.4384,-1.1811 -2.4384,-2.9337 0,-1.7145 0.9144,-2.9083 2.3749,-2.9083 1.4732,0 2.4384,1.143 2.4384,2.9337 0,1.778 -0.9525,2.9083 -2.3749,2.9083 z m 4.96569,0.1016 h 0.254 v -8.0772 c 0,-0.7366 0.508,-1.2065 1.2827,-1.2065 0.3429,0 0.7239,0.0889 1.016,0.2413 l 0.0762,-0.1778 c -0.3429,-0.1905 -0.6985,-0.2921 -1.0541,-0.2921 -0.9398,0 -1.5748,0.5969 -1.5748,1.4986 z m -0.9398,-5.8801 h 3.2131 v -0.2159 h -3.2131 z m 6.197589,5.9182 c 0.3048,0 0.6096,-0.0762 0.9017,-0.1905 l -0.0635,-0.1778 c -0.2667,0.1016 -0.5334,0.1524 -0.762,0.1524 -0.6858,0 -1.143,-0.4699 -1.143,-1.1938 v -6.4643 h -0.2667 v 6.5278 c 0,0.8255 0.5334,1.3462 1.3335,1.3462 z m -2.1336,-5.9182 h 2.8829 v -0.2159 h -2.8829 z m 6.007097,5.8801 h 0.1905 l 2.1336,-5.8293 h -0.0889 l 2.2606,5.8293 h 0.1778 l 1.9939,-6.096 h -0.2667 l -1.8415,5.7785 h 0.0762 l -2.2225,-5.7658 h -0.254 l -2.0828,5.7658 h 0.0635 l -1.9558,-5.7785 h -0.2794 z m 12.014202,0 h 0.2159 v -4.1529 c 0,-1.2827 -0.7493,-2.0193 -1.9939,-2.0193 -0.6604,0 -1.4224,0.2032 -2.0828,0.5334 l 0.0635,0.1778 c 0.5969,-0.2921 1.3081,-0.4826 1.9431,-0.4826 1.1557,0 1.8034,0.6223 1.8034,1.8415 v 3.2004 z m -2.1717,0.127 c 0.8509,0 1.6129,-0.3429 2.2225,-0.9906 v -0.2286 c -0.7239,0.6858 -1.3843,0.9906 -2.1463,0.9906 -1.0414,0 -1.7272,-0.5715 -1.7272,-1.4351 0,-1.1176 1.1684,-1.6002 3.8735,-1.6002 v -0.2032 c -2.8321,0 -4.1402,0.5842 -4.1402,1.8542 0,0.9652 0.7493,1.6129 1.9177,1.6129 z m 4.991092,-0.127 h 0.2667 v -4.8006 l -0.0508,-1.2954 h -0.2159 z m 0.1651,-4.6355 c 0.4191,-0.7747 1.1303,-1.2319 1.8923,-1.2319 0.2159,0 0.4572,0.0381 0.6604,0.1143 l 0.0762,-0.2032 c -0.1905,-0.0889 -0.4445,-0.1397 -0.7112,-0.1397 -0.8255,0 -1.5367,0.4318 -1.9177,1.1684 z m 6.629412,4.7625 c 0.6604,0 1.2827,-0.1651 1.7907,-0.508 l -0.0635,-0.1778 c -0.5461,0.3175 -1.1176,0.4699 -1.7018,0.4699 -1.6129,0 -2.6162,-1.143 -2.6162,-2.9845 0,-1.778 0.8636,-2.8702 2.2606,-2.8702 1.3208,0 2.1463,1.016 2.1463,2.6289 h -4.5466 v 0.2159 h 4.8006 c 0.0127,-0.0889 0.0127,-0.1524 0.0127,-0.254 0,-1.6764 -0.9652,-2.8194 -2.3876,-2.8194 -1.5367,0 -2.5527,1.2573 -2.5527,3.1369 0,1.9304 1.1176,3.1623 2.8575,3.1623 z"
+         id="text6842"
+         style="font-size:12.7px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, @wght=100';font-variation-settings:'wght' 100;fill:#ffffff;stroke-width:1.05833"
+         aria-label="software" />
+      <path
+         d="m 16.501658,34.256416 h 3.417719 v -10.72729 h 1.758248 c 1.284114,0 2.034827,0.612423 2.034827,1.639714 0,0.928514 -0.553157,1.501426 -1.560692,1.501426 h -3.259674 v 2.904073 h 2.785539 c 3.358452,0 5.590835,-1.995315 5.590835,-4.879633 0,-2.64725 -1.896538,-4.148676 -5.1167,-4.148676 h -5.650102 z m 7.605906,0 h 4.109165 l -3.714053,-5.867413 h -3.733808 z m 11.201416,0.197556 c 3.733809,0 6.143992,-2.311405 6.143992,-5.867413 V 20.54603 h -3.378208 v 8.435641 c 0,1.580448 -0.889002,2.508961 -2.390427,2.508961 -1.758249,0 -2.78554,-1.086558 -2.78554,-2.904073 V 20.54603 h -3.417719 v 8.238085 c 0,3.536253 2.192872,5.669857 5.827902,5.669857 z m 11.636035,-0.197556 h 3.358452 V 23.548881 h 4.267209 V 20.54603 h -11.85336 v 3.002851 h 4.227699 z m 7.625669,0 H 58.22547 L 61.8605,22.007944 h -0.948269 l 3.812831,12.248472 h 3.77332 L 63.816305,20.54603 h -4.365988 z m 3.812831,-2.82505 h 6.28228 l -0.711201,-3.081874 h -4.879633 z"
+         id="text1228"
+         style="font-size:19.7556px;font-family:Cantarell;-inkscape-font-specification:'Cantarell, @wght=800';font-variation-settings:'wght' 800;fill:#ffffff;stroke-width:1.05833"
+         aria-label="RUTA" />
+    </g>
+  </g>
+  <metadata
+     id="metadata169">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Ruta Software logo</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Arno Elias Eskelinen</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>17.12.2022</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
