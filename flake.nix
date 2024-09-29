@@ -17,8 +17,8 @@
           text = builtins.readFile script;
         };
 
-        encode-script = makeScript "snencode" ./encode.sh;
-        decode-script = makeScript "sndecode" ./decode.sh;
+        encode-script = makeScript "snencode" ./snscreensaver/encode.sh;
+        decode-script = makeScript "sndecode" ./snscreensaver/decode.sh;
       in
       {
         packages = {
@@ -31,10 +31,17 @@
             pkgs.imagemagick
             encode-script
             decode-script
+
+            pkgs.nodejs
+            pkgs.pnpm
+            pkgs.chromium
           ];
 
           shellHook = ''
             echo "ImageMagick version: $(magick -version)"
+
+            export PUPPETEER_EXECUTABLE_PATH=${pkgs.chromium.outPath}/bin/chromium
+            export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=1
           '';
         };
       }
