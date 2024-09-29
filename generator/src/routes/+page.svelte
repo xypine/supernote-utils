@@ -8,40 +8,19 @@
 	};
 	const events: Event[] = [
 		{
-			when: "Today",
-			time: "14:00-15:30",
-			where: "Madison Gardens",
-			what: "Meet with Tom"
+			when: "ASAP",
+			where: "OLMONOKO",
+			what: "Add API keys"
 		},
 		{
-			when: "Tomorrow",
-			time: "14:00",
-			what: "The World Ends"
+			when: "~2 weeks",
+			where: "OLMONOKO",
+			what: "Add sensitivity options"
 		},
 		{
-			when: "in a week",
-			where: "Tom's Address",
-			what: "Breakfast at Tom's"
-		},
-		{
-			when: "in 2 weeks",
-			where: "Tom's Address",
-			what: "Breakfast at Tom's"
-		},
-		{
-			when: "in 3 weeks",
-			where: "Tom's Address",
-			what: "Breakfast at Tom's"
-		},
-		{
-			when: "in a month",
-			where: "Tom's Address",
-			what: "Breakfast at Tom's"
-		},
-		{
-			when: "in a month",
-			where: "Tom's Address",
-			what: "Breakfast at Tom's\nwhile the world is on fire"
+			when: "Later",
+			where: "OLMONOKO",
+			what: "Add TODO support"
 		},
 	];
 </script>
@@ -51,7 +30,7 @@
 	</div>
 	<div id="center-container">
 		<div id="center">
-			<p>{date.toLocaleDateString("fi")}</p>
+			<p>last updated <span id="last-updated">{date.toLocaleString("SV")}</span></p>
 		</div>
 	</div>
 	<div id="bottom">
@@ -116,27 +95,26 @@
 		width: var(--sw);
 		height: var(--sh);
 
-		display: grid;
-		place-items: center;
-		pointer-events: none;
 	}
 	#center {
-		height: 10%;
-		width: 100%;
-		/*background: #FAFAFA;*/
-		border: 1px solid transparent;
-		border-block-color: #D0D0D0;
-
-		display: grid;
-		place-items: center;
-		font-size: 88px;
+		font-size: calc(38px * 0.5);
 		font-family: monospace, monospace;
+		color: #999;
+
+		padding: 1ch;
+		writing-mode: vertical-lr;
+		rotate: -180deg;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+	}
+	#last-updated {
+		color: #666;
 	}
 
 	#bottom {
 		display: flex;
 		justify-content: center;
-		padding-top: calc(var(--sh) * 0.10);
 		height: 50%;
 		overflow-y: hidden;
 		width: calc(var(--sw) * 0.75);
@@ -154,6 +132,7 @@
 			left:0;
 			top:0;
 			background:linear-gradient(transparent, transparent calc(var(--sh) * 0.10 + calc(var(--sh) * 0.33)), white);
+			pointer-events: none;
 		}
 	}
 	#bottom li {
