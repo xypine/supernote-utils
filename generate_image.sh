@@ -2,6 +2,7 @@
 # Easiest setup (nix with flakes):
 # - nix develop
 # - cd generator && pnpm i && cd .. # First time only
+# - export OLMONOKO_API_KEY=your-olmonoko-api-key
 # - ./generate_image.sh
 
 cd generator

@@ -1,28 +1,9 @@
 <script lang="ts">
-	const date = new Date();
-	type Event = {
-		when: string;
-		time?: string;
-		where?: string;
-		what: string;
-	};
-	const events: Event[] = [
-		{
-			when: "ASAP",
-			where: "OLMONOKO",
-			what: "Add API keys"
-		},
-		{
-			when: "~2 weeks",
-			where: "OLMONOKO",
-			what: "Add sensitivity options"
-		},
-		{
-			when: "Later",
-			where: "OLMONOKO",
-			what: "Add TODO support"
-		},
-	];
+    import type { PageData } from './$types';
+    export let data: PageData;
+    
+    $: date = data.date;
+    $: events = data.events;
 </script>
 <main>
 	<div id="top">
@@ -38,10 +19,7 @@
 			{#each events as event}
 			<li>
 				<span class="when">
-					{event.when}
-					{#if event.time}
-						<span class="time">{"\n"}{event.time}</span>
-					{/if}
+					<span>{event.when}</span>{#if event.time}<span class="time">{"\n"}{event.time}</span>{/if}
 				</span>
 				<span class="main-info">
 					<span class="what">{event.what}</span>
@@ -140,7 +118,7 @@
 		padding-left: 1ch;
 
 		display: flex;
-		gap: 1.5ch;
+		gap: 1ch;
 
 		& span {
 			white-space: pre;
@@ -159,5 +137,6 @@
 	}
 	.time, .where {
 		font-size: 75%;
+        color: #444;
 	}
 </style>
