@@ -4,5 +4,5 @@ result
 snencode
 sndecode
 # Input, output files
-idle.bmp
-idle.png
+/idle.bmp
+/idle.png
