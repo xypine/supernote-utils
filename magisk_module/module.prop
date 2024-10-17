@@ -1,0 +1,6 @@
+id=sn-ss-auto-sync
+name=SNSSAUTOSYNC
+version=1.6
+versionCode=7
+author=xypine
+description=Updates the supernote screensaver every 10 minutes

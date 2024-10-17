@@ -3,6 +3,8 @@ result
 # Nix bundle output
 snencode
 sndecode
+# Magisk module output
+snss-auto-sync.zip
 # Input, output files
 /idle.bmp
 /idle.png
